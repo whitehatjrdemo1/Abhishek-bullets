@@ -41,11 +41,12 @@ function draw(){
   if(gameState === 2){
     game.end();
   }
-  if(player.distance > 3860){
-    gameState = 2;
-    player.rank += 1;
-   // Player.updatecarsAtEnd(player.rank);
-   player.update();
-  }
+  
+  // if(player.distance > 3860){
+  //   gameState = 2;
+  //   player.rank += 1;
+  //  // Player.updatecarsAtEnd(player.rank);
+  //  player.update();
+  // }
 }
 
